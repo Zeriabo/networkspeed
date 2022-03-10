@@ -22,3 +22,9 @@ Program should output the solution to these two cases:
 ● No station within reach found, output error message
 It can be in the form of:
 “Best network station for point x,y is x,y with speed z” “No network station within reach for point x,y”
+
+the code is on the master branch written by typescript can be run by: 
+
+copy paste the code on https://www.mycompiler.io/new/typescript and run it
+
+

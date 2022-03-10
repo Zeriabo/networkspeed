@@ -127,17 +127,7 @@ function calculateDistance(p1:point,p2:point){ //calculates distance between two
     return Math.sqrt(Math.pow((p2.x-p1.x),2)+Math.pow((p2.y-p1.y),2));
 }
 
-function calculateLeastDistance(p1:point,arrayp:[point]){
- 
-  let closest= arrayp[0];
-  for(let item of arrayp){
-    if(Math.abs(item.x - p1.x)<Math.abs(closest.x - p1.x) && Math.abs(item.y - p1.y)<Math.abs(closest.y - p1.y)){
-        closest = item;
-      }
-    }
-    
-    return (closest);
-}
+
 function calculateSpeed(reach:number,distance:number)
 {
   
